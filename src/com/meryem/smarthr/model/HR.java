@@ -4,15 +4,15 @@ public class HR extends user {
     private String departmentManaged;
 
 public HR (String nom, String prenom, String email, String password, String departement, String role, String departmentManaged){
-    super (nom,prenom,email,password,role,departement);
+    super (nom,prenom,email,password,departement,role);
     this.departmentManaged= departmentManaged ;
 }
 //Setters 
-public void setdepartmentMnaged(String departmentManaged){
+public void setDepartmentMnaged(String departmentManaged){
     this.departmentManaged=departmentManaged;
 }
 //getters
-public String getdepartmentManaged(){
+public String getDepartmentManaged(){
     return departmentManaged;
 }
     

@@ -17,39 +17,39 @@ public user (String nom , String prenom , String email , String password, String
     this.role=role;
 } 
     // getters 
-    public String getnom() {
+    public String getNom() {
     return nom;
 }
-    public String getprenom(){
+    public String getPrenom(){
         return prenom;
     }
-    public String getemail(){
+    public String getEmail(){
         return email;
     }
-    public String getpassword(){
+    public String getPassword(){
         return password;
     }
-    public String getrole(){
+    public String getRole(){
         return role;
     }
-    public String getdepartement(){
+    public String getDepartement(){
         return departement ;
     }
 
    //Setters 
-   public void setnom(String nom){
+   public void setNom(String nom){
     this.nom =nom;
    }
-   public void setprenom(String prenom){
+   public void setPrenom(String prenom){
     this.prenom=prenom;
    }
-   public void setemail(String email){
+   public void setEmail(String email){
     this.email =email;
    }
-   public void setrole (String role){
+   public void setRole (String role){
     this.role = role;
    }
-   public void setdepartement (String departement){
+   public void setDepartement (String departement){
     this.departement =departement;
    }
 }
