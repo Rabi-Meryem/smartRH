@@ -6,7 +6,7 @@ import java.util.*;
 
 public class RHService {
     private List<HR> rhList = new ArrayList<>();
-    private final String FILE_PATH = "rh.txt"; // fichier pour sauvegarder les RH
+    private final String FILE_PATH = "rh.csv"; // fichier pour sauvegarder les RH
 
     // Ajouter un RH
     public void saveRH(HR rh) throws IOException {

@@ -34,3 +34,15 @@ public class Contract {
     public void setEndDate(String endDate) { this.endDate = endDate; }
     public void setFileNamePDF(String fileNamePDF) { this.fileNamePDF = fileNamePDF; }
 }
+ 
+public static Contract fromCSV(String line) {
+    String[] data = line.split(",");
+    return new Contract(
+        data[0], // id
+        data[1], // employeeEmail
+        data[2], // type
+        data[3], // startDate
+        data[4], // endDate
+        data[5]  // fileNamePDF
+    );
+}
